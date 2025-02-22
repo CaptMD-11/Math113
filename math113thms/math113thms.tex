@@ -1,47 +1,4 @@
-\documentclass[12pt]{article}
-% \usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1.5cm]{geometry}
-\usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{authblk}
-\usepackage{tkz-euclide}
-\usepackage{tikz}
-\usepackage{changepage}
-\usepackage{lipsum}
-\usepackage{tree-dvips}
-\usepackage{qtree}
-\usepackage[linguistics]{forest}
-\usepackage[hidelinks]{hyperref}
-\usepackage{mathtools}
-\usepackage{blindtext}
-% \usepackage[cal=esstix,frak=euler,scr=boondox,bb= pazo]{mathalfa}
-% the following 2 packages are used for changing the font. 
-\usepackage{mathptmx}
-\usepackage{mathrsfs}
-\usepackage{graphicx}
-\usepackage{setspace}
-\graphicspath{{./images/}}
-\allowdisplaybreaks
-\allowbreak
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}
-\newtheoremstyle{named}{}{}{\itshape}{}{\bfseries}{.}{.5em}{\thmnote{#3's }#1}
-\theoremstyle{named}
-\newtheorem*{namedconjecture}{Distinct Factorizations Conjecture}
-\newtheorem{conjecture}{Conjecture}
-\DeclareMathOperator{\sech}{sech}
-\DeclareMathOperator{\arcsec}{arcsec}
-\DeclareMathOperator{\lcm}{lcm}
-\DeclareMathOperator{\curl}{curl}
-\DeclareMathOperator{\Res}{Res}
-\DeclareMathOperator{\Aut}{Aut}
-\DeclareMathOperator{\id}{id}
-\DeclareMathOperator{\nul}{nul}
-\newcounter{customDef}
-\renewcommand{\thecustomDef}{\arabic{customDef}}
-\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
-\begin{document}
+\input{~/normal-preamble.tex}
 
 \begin{center}
     Math 113 Theorems. 
@@ -53,7 +10,7 @@
     \begin{enumerate}
         \item \textbf{Prop 0. } If $i \in [j]$, then $j \in [i]$ (in $\mathbb{Z}/n\mathbb{Z}$). 
         \item \textbf{Prop 1. } If $[i] \cap [j] \neq \emptyset$, then $[i]=[j]$. 
-        \item \textbf{Prop 2. } If $i \neq j$ and $0 \leq i,j \leq n-1$, then $[i]\cup[j] = \emptyset$. 
+        \item \textbf{Prop 2. } If $i \neq j$ and $0 \leq i,j \leq n-1$, then $[i]\cap[j] = \emptyset$. 
         \item \textbf{Prop 3. } Every $x \in \mathbb{Z}$ belongs to one of $[0],\dots,[n-1]$. 
     \end{enumerate}
 	\item \textbf{Prop. } Addition is correctly (well-defined) defined on $\mathbb{Z}/n\mathbb{Z}$ by $[a] + [b] = [a+b]$.
@@ -107,8 +64,8 @@
 	\end{enumerate}
 	\item \textbf{Theorem. } Let $h \in (H,\circ)$ where $H$ is a gropu. Then if $\langle h \rangle$ is cyclic, then $\langle h \rangle$ is either isomorphic to $\mathbb{Z}$ or $\mathbb{Z}/n\mathbb{Z}$. 
 	\item \textbf{Prop. } Assume $G$ is abelian. Then every subgroup of $G$ is normal. 
-	\item \textbf{Prop. } Take $G = \mathbb{Z}$, $H = n\mathbb{Z}$, $a,b \in \mathbb{Z}$. Then $aH \otimes bH$ gives $(a+n\mathbb{Z}) \otimes (b+n\mathbb{Z}) = (a + b) + n\mathbb{Z}$ is correctly defined. 
-	\item \textbf{Theorem. } Let $G$ be a group and $H$ a normal subgroup. Then $\otimes$ (as in the above Prop.) defines a group structure on $G/H$, where $G/H$ is called a quotient (factor) group. 
+	\item \textbf{Prop. } Take $G = \mathbb{Z}$, $H = n\mathbb{Z}$, $a,b \in \mathbb{Z}$. Then $aH \odot bH$ gives $(a+n\mathbb{Z}) \odot (b+n\mathbb{Z}) = (a + b) + n\mathbb{Z}$ is correctly defined. 
+	\item \textbf{Theorem. } Let $G$ be a group and $H$ a normal subgroup. Then $\odot$ (as in the above Prop.) defines a group structure on $G/H$, where $G/H$ is called a quotient (factor) group. 
 	\item \textbf{Prop. } Let $\phi: G \to K$ be a homomorphism. Then, $\ker \phi$ is a normal subgroup of $G$, with $\ker\phi \unlhd G$. 
 	\item \textbf{First Isomorphism Theorem. } Let $\phi: G \to H$ be a homomorphism. Then $G/\ker\phi \cong \textrm{Im}\phi$ and denote $\Phi: G/\ker\phi \to \textrm{Im}\phi$ with $g \cdot \ker\phi \mapsto \phi(g)$. 
 \end{enumerate}
