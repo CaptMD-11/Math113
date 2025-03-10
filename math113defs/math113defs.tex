@@ -61,6 +61,11 @@
 	\item \textbf{$G$ acts on a set $X$. } $G$ acts on a set $X$ is a homomorphism $\phi: G \to \textrm{Sym}(X)$. 
 	\item \textbf{Stabilizer of $x \in X$. } Let $G$ be a group and $X$ a set. Then, the stabilizer of $x \in X$ is $\Stab_G(x) = \{g \in G \mid g(x)=x\}$, which are elements of $g$ that preserve $x \in X$. 
 	\item \textbf{Orbit of $x \in X$. } Take $x \in X$. Then the orbit of $X$ is $\orb_G(x) = \mathcal{O}_G(x) = \mathcal{O}(x) = \{g(x) \mid g \in G\} \subseteq X$. 
+	\item \textbf{$G$ acts on a set $X$ (equivalent) def. } A group $G$ acts on a set $X$ iff $\Phi: G \times X \to X$ with $(g,x) \mapsto \Phi(g,x) = g \circ x$ such that: 
+	\begin{enumerate}
+		\item for all $x \in X$, $\Phi(e_G,x) = x$. 
+		\item for all $x \in X$, $g,h \in G$, $\Phi(gh,x) = \Phi(g,\Phi(h,x))$. 
+	\end{enumerate}
 \end{enumerate}
 
 
