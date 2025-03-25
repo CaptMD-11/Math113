@@ -77,6 +77,38 @@
 	\item \textbf{$R^\times$. } Let $R$ be a ring. Then, we define $R^\times = \{a \in R \mid \exists b \in R : ab = 1_R\}$, where $(R^\times, \times)$ is a group, possibly abelian. 
 	\item \textbf{Field. } Let $R = (R,+,\times)$ be a commutative ring with $1_R$ being the multiplicative identity. Then if $R^\times = R \setminus \{0\}$, then $R$ is a field. 
 	\item \textbf{Ring Homomorphism. } Let $R = (R,+,\times)$ and $S=(S,+,\times)$ be rings. Then a map $\phi: R \to S$ is a homomorphism of rings iff $\phi(a +_R b) = \phi(a) +_S \phi(b)$ and $\phi(a \times_R b) = \phi(a) \times_S \phi(b)$. Additionally, axiomatically, $\phi(1_R)=1_S$ and a property is $\phi(0_R) = 0_S$. Also, define $\ker\phi := \{r \in R \mid \phi(r) = 0_S\}$. 
+	\item BELOW IS ADDITIONAL DEFS FOR MT2
+	\item A \textbf{ring with unity (or with identity)} is a ring $R$ that has multiplicative identity. 
+        \item A \textbf{commutative ring} is a ring $R$ that has multiplicative commutativity. 
+        \item An \textbf{integral domain} is a commutative ring $R$ with identity such that for all $a,b \in R$ $ab=0$ implies $a=0$ or $b=0$. 
+        \item A \textbf{division ring} is a ring $R$ that has multiplicative inverse for all nonzero $a \in R$. 
+        \item A \textbf{zero divisor} of a commutative ring $R$ is an $a \in R$ ($a \neq 0$) such that there exists a nonzero $b \in R$ such that $ab=0$. 
+        \item The \textbf{ring of quaternions} is the set $\mathbb{H} = \{a + b\hat{i} + c\hat{j} + d\hat{k} \mid a,b,c,d \in \mathbb{R}\}$, where $1 = \begin{pmatrix}
+            1 & 0 \\
+            0 & 1
+        \end{pmatrix}, \hat{i} = \begin{pmatrix}
+            0 & 1 \\
+            -1 & 0
+        \end{pmatrix}, \hat{j} = \begin{pmatrix}
+            0 & i \\
+            i & 0
+        \end{pmatrix}, \hat{k} = \begin{pmatrix}
+            i & 0 \\
+            0 & -i
+        \end{pmatrix}.$
+	\item A \textbf{field} is a commutative division ring. 
+        \item The \textbf{characteristic} of a ring R is the least positive integer $n$ such that $nr=0$ for all $r \in R$. If no such $n$ exists, the characteristic of $R$ is defined to be 0. (denote the characteristic of $R$ by $\textrm{char} R$). 
+	\item A \textbf{ring homomorphism} is a map $\phi: R \to S$ (where $R,S$ are rings) such that $\phi(a+b) = \phi(a) + \phi(b)$ and $\phi(ab) = \phi(a)\phi(b)$ for all $a,b \in R$. 
+        \item A \textbf{ring isomorphism} is a bijective map $\phi: R \to S$ where $R,S$ are rings. 
+        \item The \textbf{kernel} of a ring homomorphism $\phi: R \to S$ is the set $\ker\phi := \{r \in R \mid \phi(r) = 0\}$. 
+        \item An \textbf{evaluation homomorphism} is a ring homomorphism of the form $\phi_\alpha: C[a,b] \to \mathbb{R}$ or other such related homomorphisms. 
+        \item An \textbf{ideal} of a ring $R$ is a subring $I$ such that if $a \in I$ and $r \in R$, then $ar,ra \in I$. 
+        \item The \textbf{trivial ideals} of a ring $R$ are the subrings $\{0\}$ and $R$. 
+        \item A \textbf{principal ideal} of a commutative ring $R$ (with identity) is an ideal of the form $\langle a \rangle = \{ar \mid r \in R\}$. 
+        \item A \textbf{two-sided ideal} $I$ is a subring of a ring $R$ such that $rI \subset I$ and $Ir \subset I$ for all $r \in R$. 
+        \item A \textbf{one-sided ideal} $I$ is a subring of a ring $R$ is one such that $rI \subset I$ for all $r \in R$ (a \textbf{left ideal}) or $Ir \subset I$ for all $r \in R$ (a \textbf{right ideal}). 
+	\item \textbf{Quotient ring. } Let $R$ be a ring and $I$ a two-sided ideal of $R$. Then the quotient ring $R/I$ is defined to be the set of all cosets of $I$ with respect to $+$ and $\times$. 
+	\item \textbf{Natural/canonical homomorphism. } The map $\phi: R \to R/I$ is called the natural/canonical homomorphism. 
 	\begin{center}
 		\hrule
 	\end{center}
