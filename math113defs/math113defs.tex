@@ -103,7 +103,11 @@
         \item A \textbf{ring isomorphism} is a bijective map $\phi: R \to S$ where $R,S$ are rings. 
         \item The \textbf{kernel} of a ring homomorphism $\phi: R \to S$ is the set $\ker\phi := \{r \in R \mid \phi(r) = 0\}$. 
         \item An \textbf{evaluation homomorphism} is a ring homomorphism of the form $\phi_\alpha: C[a,b] \to \mathbb{R}$ or other such related homomorphisms. 
-        \item An \textbf{ideal} of a ring $R$ is a subring $I$ such that if $a \in I$ and $r \in R$, then $ar,ra \in I$. 
+        \item An \textbf{ideal} of a ring $R$ is a subring $I$ such that 
+	\begin{enumerate}
+	\item $(I,+)$ is a subgroup of $(R,+)$. 
+	\item if $a \in I$ and $r \in R$, then $ar,ra \in I$. 
+	\end{enumerate}
         \item The \textbf{trivial ideals} of a ring $R$ are the subrings $\{0\}$ and $R$. 
         \item A \textbf{principal ideal} of a commutative ring $R$ (with identity) is an ideal of the form $\langle a \rangle = \{ar \mid r \in R\}$. 
         \item A \textbf{two-sided ideal} $I$ is a subring of a ring $R$ such that $rI \subset I$ and $Ir \subset I$ for all $r \in R$. 
