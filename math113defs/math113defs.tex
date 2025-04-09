@@ -120,6 +120,20 @@
 	\item \textbf{proper ideal. } $I \unlhd R$ is a proper ideal of $R$ iff $I \neq \{0_R\}$ and $I \neq R$. 
 	\item \textbf{Integral domain. } A commutative ring $R$ with $1_R$ is an integral domain if there are no (nonzero) zero-divisors. 
 	\item \textbf{Prime ideal. } An ideal $I$ of a ring $R$ is a prime ideal if $ab \in I$ means $a \in I$ or $b \in I$. 
+	\item \textbf{Prime. } Let $p \in D$, where $D$ is an integral domain and $p$ a non-unit. $p$ is prime iff if $p \mid ab$, then $p \mid a$ or $p \mid b$. 
+	\item \textbf{Irreducible. } Let $x \in D$, where $D$ is an integral domain and $x$ a non-unit. $x$ is irreducible iff if $x =ab$ means $a$ is a unit or $b$ is a unit. 
+	\item \textbf{Principal ideal domain (PID). } A principal ideal is an integral domain in which every ideal is a principal ideal. 
+	\item \textbf{Unique factorization domain (UFD). } An integral domain $D$ is a unique factorization doman (UFD) if: 
+	\begin{enumerate}
+		\item Let $a \in D$ such that $a \neq 0$ and $a$ is a non-unit. Then $a$ can be written as the product of irreducible elements of $D$. 
+		\item Let $a = p_1 \cdot \cdot \cdot p_r = q_1 \cdot \cdot \cdot q_s$, where $p_i,q_k$ are irreducbile. Then $r=s$ and there is a $\pi \in S_r$ such that $p_i$ and $q_{\pi(j)}$ are associates for $j=1,\dots,r$. 
+	\end{enumerate}
+	\item \textbf{Euclidean domain. } Let $D$ be an integral domain such that there is a function $v: D \setminus \{0\} \to \mathbb{N}$ such that: 
+	\begin{enumerate}
+		\item If $a,b$ are nonzero elements of $D$, then $v(a) \leq v(ab)$. 
+		\item Let $a,b \in D$ and suppose $b \neq 0$. Then There exist elements $q,r \in D$ such that $a=bq+r$ and either $r=0$ or $v(r) < v(b)$. 
+	\end{enumerate}
+	Then $D$ is a Euclidean domain. 
 \end{enumerate}
 
 
