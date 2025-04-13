@@ -1,0 +1,32 @@
+\input{~/normal-preamble.tex}
+
+\begin{center}
+	Midterm 2 Attempt. 
+\end{center}
+
+\begin{enumerate}
+	\item Problem 0. 
+	\begin{enumerate}
+		\item A zero divisor in a commutative ring $T$ with $1_T$ is a nonzero element $a \in T$ such that there exists a nonzero $b \in T$ such that $ab = 0$. A unit in a commutative ring $T$ with $1_T$ is an element $a \in T$ such that there exists a $b \in T$ such that $ab = 1_T$. 
+		\item Consider the ring $R = \mathbb{Z}$ and the ideal $5\mathbb{Z}$. The ideal $5\mathbb{Z}$ is a proper ideal of $\mathbb{Z}$, and $4 \notin 5\mathbb{Z}$ with $4 \in \mathbb{Z}$, and $5 \in 5\mathbb{Z}$ with $5 \notin \{0\}$. 
+	\end{enumerate}
+	\item Problem 1. 
+	\begin{enumerate}
+		\item We first find $\orb(A) = \{\sigma(A) \mid \sigma \in S_4\}$. Our set is $X = \{A,B,C\}$. By definition of how $S_4$ acts on $X$, we have that $(12) \circ A = \{\{2,1\}, \{3,4\}\} = \{\{1,2\}, \{3,4\}\} = A$, so $A \in \orb(A)$. We have $(23) \circ A = \{\{1,3\}, \{2,4\}\} = B \in \orb(A)$ and $(123) \circ A = \{\{2,3\}, \{1,4\}\} = C$, and so $\orb(A) = X$. Now, find $\Stab(A) = \{\sigma \in S_4 \mid \sigma(A) = A\}$. Clearly, $\id$ fixes $A$, and also $(12)$, $(34)$, and $(12)(34)$ fix $A$, as $A$ is a set of sets. Additionally, we may also flip the order of the subsets while preserving the elements in each subset. We see that the permutations $(13)(24), (1423), (1324), (14)(23)$ do this and only these permutations do this. Thus, $\Stab(A)$ is the union of these permutations with the Klein 4-group. 
+		\item We see that $(12) \circ A = A$, and $(12)$ sends $B$ to $C$ and $C$ to $B$; thus, $\phi((12)) = (A)(BC)$. $(12)(34) \circ A = A$, $(12)(34) \circ B = B$, and since $(12)(34)$ is a permutation, we must have $(12)(34) \circ C = C$, and so $\phi((12)(34)) = (A)(B)(C) = \id$. $(123) \circ A = C$, $(123) \circ B = A$, $(123) \circ C = B$, so thus $\phi((123)) = (ACB)$. $(1234) \circ A = C$, $(1234) \circ B = B$, $(1234) \circ C = A$, so $\phi((1234)) = (AC)(B)$. 
+	\item $\ker\phi = \{\sigma \in S_4 \mid \phi(\sigma) = \id\}$. We see that, trivially, $\id$ sends each $x \in X$ to itself, so $\id \in \ker\phi$. Also, $(12)(34), (13)(24), (14)(23)$, send each $x \in X$ to itself, so they are also included in $\ker\phi$. It can also be verified that any for any $\sigma \in S_4$ other than these, there exists an $x \in X$ such that $\sigma(x) \neq x$, and so these $\sigma$ cannot be in $\ker\phi$. 
+	\item We now use the first isomorphism theorem of groups and Lagrange's theorem to solve this, since $G = S_4$ is a finite group. Since the first isomorphism theorem gives us that $S_4 / \ker\phi \cong \textrm{Im}\phi$, thus, by Lagrange's theorem, we get that $|\textrm{Im}\phi| = \frac{|S_4|}{|\ker\phi|} = \frac{24}{4} = 6$. 
+	\end{enumerate}
+	\item Problem 2. 
+	\begin{enumerate}
+		\item (check solutions). 
+		\item Distributivity follows from high school algebra (as showed on my exam copy). We now find the multiplicative identity in $(\mathbb{Z}, \star, \circ)$. Fix $a \in (\mathbb{Z}, \star, \circ)$. Find $x$ such that $a \circ x = a$, which is equivalent to finding $x$ such that $ax + 4a + 4x + 12 = a$. We have $ax + 4a + 4x + 12 = a$ gives $ax+3a = -4x-12$, giving $a(x+3) = -4(x+3)$, giving $x=-3$ to not contradict our required condition. Thus, $x=-3$ is the multiplicative identity. 
+	\end{enumerate}
+	\item Problem 3. 
+	\begin{enumerate}
+		\item $\ker(ev)$ consists precisely of those polynomials of the form $p(x) = a^2 + bx +c$ (with $a,b,c \in \mathbb{R}$) such that $p(5)=0$, namely 5 is a root of $p$, which is to say we may write $p(x)=(x-5)g(x)$, where $g(x) \in \mathbb{R}[x]$, with $\deg g = 1$. 
+		\item We now show that $I[x]$ is an ideal of $R[x]$. First, we show $I[x]$ is a abelian subgroup of $R[x]$. We see $0 \in I \subseteq R$, as $I$ is ideal of $R$. Then, we must have that for any $a_nx^n + \dots + a_0 \in I[x]$, $a_nx^n + \dots + a_0 = (a_nx^n + \dots a_0) + 0 = (a_n + 0)x^n + \dots + (a_0 + 0) = (0 + a_n)x^n + \dots + (0 + a_0) = 0 + (a_nx^n + \dots + a_0)$, and so $0$ is the identity in $I[x]$. Associativity of $I[x]$ holds as $I[x] \subseteq R[x]$. We also that if $a_nx^n + \dots a_0 \in I[x]$, then $(-a_n)x^n + \dots + (-a_0) \in I[x]$ (as $a_i,-a_i \in I$, as $I$ is an ideal of $R$) such that it commutes with $a_nx^n + \dots + a_0$ to give $0$ in both cases. Take now $(a_n)x^n + \dots + a_0, b_mx^m + \dots + b_0 \in I[x]$. Then, their product is a polynomial of degree $n+m$ with coeffients in $I$, by definition of multiplying polynomials, and thus their product is in $I[x]$. Also, $I[x]$ is abelian, since polynomial addition is commutative, as seen in class. Now take $a(x) = a_nx^n + \dots a_0 \in I[x]$ and $b(x) = b_mx^m + \dots b_0 \in R[x]$. The product $(ab)(x)$ has degree $n+m$. Put $c(x) = (ab)(x) = c_{m+n}x^{m+n} + \dots + c_{0}$. By definition of polynomial multiplication, we have that any coefficient $c_i$ of $c$ is a sum of products, where each product consists of an element from $I$ and an element from $R$. Since $I$ is an ideal in $R$, thus each of the products (which are summands) lies in $I$, and since $I$ is an abelian subgroup of $R$ under addition, thus the sum of the products lies in $I$, and so $c_i \in I$ for all $i \in \{0, \dots, m+n\}$. Thus, $c(x) \in I[x]$, and so $I[x]$ is an ideal of $R[x]$. 
+	\end{enumerate}
+\end{enumerate}
+
+\end{document}
