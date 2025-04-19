@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  18 APR 2025 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  18 APR 2025 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,31 +1366,15 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 Non-PDF special ignored!
 <special> header=tree-dvips91.pro
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-43.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.143 ...s $\langle x_1,\dots,x_n \rangle$ := \{a_
-                                                  1x_1 + \dots + a_nx_n \mid...
-
-? 
-[6] (./math113defs.aux)
+[2] [3] [4] [5] [6] (./math113defs.aux)
 Package rerunfilecheck Info: File `math113defs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38309 strings out of 476025
- 868610 string characters out of 5790017
+ 38290 strings out of 476025
+ 868275 string characters out of 5790017
  1870388 words of memory out of 5000000
- 57961 multiletter control sequences out of 15000+600000
+ 57945 multiletter control sequences out of 15000+600000
  517733 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,8n,123p,1649b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1404,7 +1388,7 @@ cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on math113defs.pdf (6 pages, 143612 bytes).
+Output written on math113defs.pdf (6 pages, 143597 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams
