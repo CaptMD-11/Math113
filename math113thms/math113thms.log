@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  23 APR 2025 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  23 APR 2025 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1371,8 +1371,8 @@ Package rerunfilecheck Info: File `math113thms.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38322 strings out of 476025
- 868531 string characters out of 5790017
+ 38325 strings out of 476025
+ 868555 string characters out of 5790017
  1870388 words of memory out of 5000000
  57945 multiletter control sequences out of 15000+600000
  517733 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1390,10 +1390,10 @@ exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on math113thms.pdf (6 pages, 156708 bytes).
+Output written on math113thms.pdf (6 pages, 156955 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 138 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 141 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
