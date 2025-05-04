@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  18 FEB 2025 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.31)  3 MAY 2025 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,69 +1358,86 @@ Package hyperref Info: Link coloring OFF on input line 48.
 
 )
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 9.
+ 8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 9.
+ 8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 9.
+ 8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 9.
+ 8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+! Undefined control sequence.
+l.30 ...ebraic field extension iff $E \cong \sfrac
+                                                  {F[x]}{\langle p(x) \rangl...
+
+? 
+[1
 
 
 Non-PDF special ignored!
 <special> header=tree-dvips91.pro
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] (./test.aux)
+al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+! Undefined control sequence.
+l.75 ...$F[p(x)]$, we have that put $F_1 := \sfrac
+                                                  {F[x]}{<p(x)>}$, and write...
+
+? 
+! Undefined control sequence.
+l.77 	\item $\{\id,\conj
+                        \}$ are all the automorphisms of $C$ over $R$.
+? 
+[2] (./test.aux)
 Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37254 strings out of 476025
- 841826 string characters out of 5790017
- 1878388 words of memory out of 5000000
- 56945 multiletter control sequences out of 15000+600000
- 530564 words of font info for 74 fonts, out of 8000000 for 9000
+ 37247 strings out of 476025
+ 841751 string characters out of 5790017
+ 1883388 words of memory out of 5000000
+ 56940 multiletter control sequences out of 15000+600000
+ 529682 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,5n,123p,1641b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,8n,123p,1641b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on test.pdf (2 pages, 71533 bytes).
+al/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/
+2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on test.pdf (2 pages, 79870 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 66 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
